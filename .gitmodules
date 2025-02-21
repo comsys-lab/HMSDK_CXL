@@ -1,6 +1,3 @@
-[submodule "linux"]
-	path = linux
-	url = https://github.com/skhynix/linux.git
 [submodule "numactl"]
 	path = numactl
 	url = https://github.com/skhynix/numactl.git

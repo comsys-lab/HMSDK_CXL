@@ -1295,6 +1295,12 @@ config NUMA_EMU
 	  into virtual nodes when booted with "numa=fake=N", where N is the
 	  number of nodes. This is only useful for debugging.
 
+config PEBS_TEST
+    bool "Enable PEBS Test Support"
+    default n
+    help
+      Enable support for PEBS test functionality.
+
 source "mm/damon/Kconfig"
 
 endmenu

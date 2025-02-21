@@ -2,7 +2,7 @@
 VERSION = 6
 PATCHLEVEL = 12
 SUBLEVEL = 0
-EXTRAVERSION =
+EXTRAVERSION = -pebs_enabled+
 NAME = Baby Opossum Posse
 
 # *DOCUMENTATION*

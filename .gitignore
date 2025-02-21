@@ -2,3 +2,7 @@
 *.diff
 *.orig
 __pycache__
+*.o
+*.ko
+/arch/x86/boot/
+*.log

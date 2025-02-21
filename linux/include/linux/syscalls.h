@@ -846,6 +846,12 @@ asmlinkage long sys_rt_tgsigqueueinfo(pid_t tgid, pid_t  pid, int sig,
 asmlinkage long sys_perf_event_open(
 		struct perf_event_attr __user *attr_uptr,
 		pid_t pid, int cpu, int group_fd, unsigned long flags);
+
+/* CONFIG PEBS_TEST*/
+asmlinkage long sys_pebs_start(pid_t pid, char *cgroup_path);
+asmlinkage long sys_pebs_end(pid_t pid, char *cgroup_path);
+/*******************/
+
 asmlinkage long sys_accept4(int, struct sockaddr __user *, int __user *, int);
 asmlinkage long sys_recvmmsg(int fd, struct mmsghdr __user *msg,
 			     unsigned int vlen, unsigned flags,
